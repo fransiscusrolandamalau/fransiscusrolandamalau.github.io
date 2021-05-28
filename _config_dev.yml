@@ -1,7 +1,7 @@
 # Site settings
 name: Fransiscus Rolanda Malau
-title: Fransiscus Rolanda Malau | Front End Software Engineer
-description: Design-minded front-end software engineer focused on building beautiful interfaces and experiences
+title: Fransiscus Rolanda Malau | Web Developer
+description: Web Developer focused to build websites & web applications.
 url: https://ndomalau.me/
 baseurl: ''
 email: fransiscusrmalau@gmail.com
@@ -12,15 +12,11 @@ social:
   - title: email
     url: mailto:fransiscusrmalau@gmail.com
   - title: twitter
-    url: https://twitter.com/bchiang7
-  - title: instagram
-    url: https://instagram.com/bchiang7
-  - title: codepen
-    url: http://codepen.io/bchiang7
+    url: https://twitter.com/ndomaIau
   - title: github
-    url: https://github.com/bchiang7
+    url: https://github.com/fransiscusrolandamalau
   - title: linkedin
-    url: https://www.linkedin.com/in/bchiang7
+    url: https://www.linkedin.com/in/fransiscus-rolanda-malau
 
 # Build settings
 markdown: kramdown
