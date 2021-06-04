@@ -1,0 +1,16 @@
+languages:
+  - item: "PHP: Hypertext Preprocessor"
+  - item: "JavaScript (ES6)"
+  - item: SQL
+
+frameworks:
+  - item: Laravel
+  - item: CodeIgniter Web Framework
+  - item: Bootstrap
+  - item: Tailwind CSS
+
+tools:
+  - item: Bash
+  - item: Git & Github
+  - item: Chrome DevTools
+  - item: Visual Studio Code
