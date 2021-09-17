@@ -1,0 +1,48 @@
+baseURL = "https://blog.joway.io/"
+languageCode = "en-us"
+title = "Fransiscus Rolanda Malau"
+theme = "yinyang"
+DefaultContentLanguage = "id"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    guessSyntax = true
+    noClasses = true
+    style = "bw"
+    tabWidth = 2
+
+[author]
+  name = "Joway"
+  homepage = "https://ndomalau.me/"
+
+[languages]
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
+    weight = 1
+  [languages.id]
+    contentDir = "content/id"
+    languageName = "Bahasa Indonesia"
+    weight = 2
+
+[params]
+mainSections = ["posts"]
+headTitle = "Fransiscus Rolanda Malau"
+disqus = "joway" # disqus account name
+extraHead = '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-xxx"></script>'
+
+
+[[params.socials]]
+name = "RSS"
+link = "/index.xml"
+
+[[params.socials]]
+name = "About"
+link = "https://joway.io"
+postHeaderContent = ""
+postFooterContent = "<br/><br/><p>Subscribe to：<a target='_blank' href='https://mailchi.mp/a1a0d59e7a19/joway'>Joway's Blog</a></p>"
+# extraCSSFiles = ["css/foo.css", "css/bar.css"]
+extraCSSFiles = []
