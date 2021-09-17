@@ -1,0 +1,1 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/31c7072e-1a8e-421d-b5e5-ca3a04e3408e/deploy-status)](https://app.netlify.com/sites/ndomalau/deploys)
