@@ -15,7 +15,7 @@ DefaultContentLanguage = "id"
     tabWidth = 2
 
 [author]
-  name = "Joway"
+  name = "ndomalau"
   homepage = "https://ndomalau.me/"
 
 [languages]
@@ -31,17 +31,23 @@ DefaultContentLanguage = "id"
 [params]
 mainSections = ["posts"]
 headTitle = "Fransiscus Rolanda Malau"
+Description = "Log something useless, but interesting."
 disqus = "joway" # disqus account name
 extraHead = '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-xxx"></script>'
 
-
 [[params.socials]]
-name = "RSS"
+name = "Home"
 link = "/index.xml"
-
+[[params.socials]]
+name = "Portfolio"
+link = "/about"
 [[params.socials]]
 name = "About"
-link = "https://joway.io"
+link = "/index.xml"
+[[params.socials]]
+name = "Contact"
+link = "/"
+
 postHeaderContent = ""
 postFooterContent = "<br/><br/><p>Subscribe to：<a target='_blank' href='https://mailchi.mp/a1a0d59e7a19/joway'>Joway's Blog</a></p>"
 # extraCSSFiles = ["css/foo.css", "css/bar.css"]
