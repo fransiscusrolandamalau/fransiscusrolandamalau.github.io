@@ -1,0 +1,25 @@
+
+   <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+     <channel>
+       <title>Posts on My Hugo Blog</title>
+       <link>fransiscusrolandamalau.github.io/posts/</link>
+       <description>Recent content in Posts on My Hugo Blog</description>
+       <generator>Hugo -- gohugo.io</generator>
+       <language>en-us</language>
+       <copyright>Copyright © 2020 - Ruan Bekker</copyright>
+       <lastBuildDate>Tue, 24 May 2022 12:31:39 +0700</lastBuildDate>
+       
+           <atom:link href="fransiscusrolandamalau.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+       
+       
+       <item>
+         <title>My First Post</title>
+         <link>fransiscusrolandamalau.github.io/posts/my-first-post/</link>
+         <pubDate>Tue, 24 May 2022 12:31:39 +0700</pubDate>
+         
+         <guid>fransiscusrolandamalau.github.io/posts/my-first-post/</guid>
+         <description></description>
+       </item>
+       
+     </channel>
+   </rss>

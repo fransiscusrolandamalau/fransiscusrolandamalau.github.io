@@ -1,0 +1,34 @@
+
+   <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+     <channel>
+       <title>Tags on My Hugo Blog</title>
+       <link>fransiscusrolandamalau.github.io/tags/</link>
+       <description>Recent content in Tags on My Hugo Blog</description>
+       <generator>Hugo -- gohugo.io</generator>
+       <language>en-us</language>
+       <copyright>Copyright © 2020 - Ruan Bekker</copyright>
+       <lastBuildDate>Tue, 24 May 2022 12:31:39 +0700</lastBuildDate>
+       
+           <atom:link href="fransiscusrolandamalau.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+       
+       
+       <item>
+         <title>hugo</title>
+         <link>fransiscusrolandamalau.github.io/tags/hugo/</link>
+         <pubDate>Tue, 24 May 2022 12:31:39 +0700</pubDate>
+         
+         <guid>fransiscusrolandamalau.github.io/tags/hugo/</guid>
+         <description></description>
+       </item>
+       
+       <item>
+         <title>kiera</title>
+         <link>fransiscusrolandamalau.github.io/tags/kiera/</link>
+         <pubDate>Tue, 24 May 2022 12:31:39 +0700</pubDate>
+         
+         <guid>fransiscusrolandamalau.github.io/tags/kiera/</guid>
+         <description></description>
+       </item>
+       
+     </channel>
+   </rss>
