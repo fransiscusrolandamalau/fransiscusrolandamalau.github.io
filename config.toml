@@ -4,6 +4,7 @@ title = "My Hugo Blog"
 copyright = "Copyright © 2020 - Ruan Bekker"
 canonifyurls = true
 theme = "kiera"
+publishDir = "docs"
 
 paginate = 3
 
