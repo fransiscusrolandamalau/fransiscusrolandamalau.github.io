@@ -1,4 +1,4 @@
-baseurl = "https://www.example.org/"
+baseurl = "https://ndomalau.netlify.app/"
 title = "Kiera"
 copyright = "Copyright &copy; 2019 - Author Name"
 canonifyurls = true
