@@ -1,6 +1,6 @@
 baseurl = "https://ndomalau.netlify.app/"
-title = "Kiera"
-copyright = "Copyright &copy; 2019 - Author Name"
+title = "Fransiscus Rolanda Malau"
+copyright = "Copyright &copy; 2020 - Fransiscus Rolanda Malau"
 canonifyurls = true
 theme = "hugo-kiera"
 
@@ -14,20 +14,20 @@ pygmentsCodeFences = true
 
 # Note: to disable a social network icon delete or comment out the corresponding line
 [author]
-    name = "Example"
-    github = "funkydan2"
+    #name = "Example"
+    github = "fransiscusrolandamalau"
     #gitlab = "username"
-    #linkedin = "username"
+    linkedin = "fransiscus-rolanda-malau"
     #facebook = "username"
-    twitter = "ds_says"
+    twitter = "ndo_malau"
     #instagram = "username"
     #stackoverflow = "username"
     #youtube = "user/username" # or channel/channelname
     #devto = "username"
 
 [params]
-    tagline = "A Hugo theme for creative and technical writing"
-    description = "Kiera: A Hugo theme for creative and technical writing."
+    tagline = "It always seems impossible until it’s done."
+    description = "Fransiscus Rolanda Malau: It always seems impossible until it’s done.."
     #images = [""] #This is used for opengraph/twitter cards.
     customCSS = []  #Optional Customised CSS
     #favicon = ""

@@ -1,141 +1,49 @@
 +++
-author = "Hugo Authors"
-title = "Markdown Syntax Guide"
-date = "2019-03-11"
-description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
-tags = [
-    "markdown",
-    "css",
-    "html",
-    "themes",
-]
-categories = ["Layout"]
+title = "Memastikan cara penulisan kode Laravel seragam dan mengikuti standar dengan PHP CS Fixer"
+date = 2021-02-10T12:31:39+07:00
+draft = false
+tags = ["coding-style", "laravel", "phpcsfixer"]
+categories = ["laravel"]
+meta = true
 +++
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
-<!--more-->
+![](https://cdn-images-1.medium.com/max/2400/1*4f9-neh_txfD-At1LeoRwA.png)
 
-## Headings
+## Pengantar
 
-The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
+Kali ini saya akan menunjukkan cara menggunakan tool [PHP Coding Standards Fixer (PHP CS Fixer)](https://github.com/FriendsOfPHP/PHP-CS-Fixer) di proyek aplikasi [Laravel](https://laravel.com) kalian. Jika sebelumnya kalian ingin cara penulisan kodenya mengikuti standar pengkodean PHP seperti yang didefinisikan dalam PSR-1, PSR-2, dll, atau seragam antar programmer meskipun menggunakan IDE/editor yang berbeda, maka tutorial ini bisa sangat ngebantu.
 
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
+## Persyaratan
 
-## Paragraph
+* Versi minimum [PHP](https://www.php.net) yang digunakan harus PHP 5.6.0.
 
-Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
+* Pastikan teman-teman menjalankan perintah-perintah berikut didalam proyek [Laravel](https://laravel.com) kalian ya.
 
-Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
+## Instalasi
 
-## Blockquotes
+    composer require friendsofphp/php-cs-fixer --dev
 
-The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
+## Konfigurasi
 
-#### Blockquote without attribution
+Menentukan aturan yang ingin digunakan dalam proyek [Laravel](https://laravel.com) kalian:
 
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-> **Note** that you can use *Markdown syntax* within a blockquote.
+Buat file *.php_cs* di direktori root proyek kalian, dan gunakan contoh aturan ini: [*Laravel Coding Style Ruleset](https://gist.github.com/FransiscusRolandaMalau/41d5c147dc4a7ff8dd1a02edb2bdabdf)*.
 
-#### Blockquote with attribution
+Jangan lupa untuk menambahkan *.php_cs.cache* ke file *gitignore *kalian ya.
 
-> Don't communicate by sharing memory, share memory by communicating.</p>
-> — <cite>Rob Pike[^1]</cite>
+## Pemakaian
 
+Melakukan perbaikan secara otomatis:
 
-[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
+    vendor/bin/php-cs-fixer fix --allow-risky=yes --diff
 
-## Tables
+Untuk melakukan pengecekan saja tanpa perbaikan, tambahkan opsi --dry-run:
 
-Tables aren't part of the core Markdown spec, but Hugo supports supports them out-of-the-box.
+    vendor/bin/php-cs-fixer fix --allow-risky=yes --diff --dry-run
+    vendor/bin/php-cs-fixer fix --allow-risky=yes --diff --dry-run
 
-   Name | Age
---------|------
-    Bob | 27
-  Alice | 23
+## Penutup
 
-#### Inline Markdown within tables
+Dalam tutorial sederhana ini, kita telah memastikan cara penulisan kode [Laravel](https://laravel.com) kita mengikuti standar dengan menggunakan PHP CS Fixer. Selain itu, kalian juga dapat membagikan file gaya aturan kalian (.php_cs) ke teman-teman kalian agar gaya kode kalian seragam.
 
-| Inline&nbsp;&nbsp;&nbsp;     | Markdown&nbsp;&nbsp;&nbsp;  | In&nbsp;&nbsp;&nbsp;                | Table      |
-| ---------- | --------- | ----------------- | ---------- |
-| *italics*  | **bold**  | ~~strikethrough~~&nbsp;&nbsp;&nbsp; | `code`     |
-
-## Code Blocks
-
-#### Code block with backticks
-
-```
-html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Example HTML5 Document</title>
-</head>
-<body>
-  <p>Test</p>
-</body>
-</html>
-```
-#### Code block indented with four spaces
-
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <title>Example HTML5 Document</title>
-    </head>
-    <body>
-      <p>Test</p>
-    </body>
-    </html>
-
-#### Code block with Hugo's internal highlight shortcode
-{{< highlight html >}}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Example HTML5 Document</title>
-</head>
-<body>
-  <p>Test</p>
-</body>
-</html>
-{{< /highlight >}}
-
-## List Types
-
-#### Ordered List
-
-1. First item
-2. Second item
-3. Third item
-
-#### Unordered List
-
-* List item
-* Another item
-* And another item
-
-#### Nested list
-
-* Item
-1. First Sub-item
-2. Second Sub-item
-
-## Other Elements — abbr, sub, sup, kbd, mark
-
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
-
-H<sub>2</sub>O
-
-X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
-
-Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.
-
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
+Semoga tutorial ini bisa membatu:).
