@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "My Hugo Blog"
 copyright = "Copyright © 2020 - Ruan Bekker"
 canonifyurls = true
-theme = "kiera"
+theme = "hugo-kiera"
 publishDir = "docs"
 
 paginate = 3
