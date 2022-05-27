@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://ndomalau.netlify.app/categories/</loc>
+    <lastmod>2022-04-01T12:31:39+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ndomalau.netlify.app/tags/datetime/</loc>
+    <lastmod>2022-04-01T12:31:39+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ndomalau.netlify.app/</loc>
+    <lastmod>2022-04-01T12:31:39+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ndomalau.netlify.app/tags/mysql/</loc>
+    <lastmod>2022-04-01T12:31:39+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ndomalau.netlify.app/posts/mysql-fix-incorrect-datetime-value-00000000-000000/</loc>
+    <lastmod>2022-04-01T12:31:39+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ndomalau.netlify.app/posts/</loc>
+    <lastmod>2022-04-01T12:31:39+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ndomalau.netlify.app/tags/</loc>
+    <lastmod>2022-04-01T12:31:39+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ndomalau.netlify.app/categories/tips/</loc>
+    <lastmod>2022-04-01T12:31:39+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ndomalau.netlify.app/tags/fizzbuzz/</loc>
+    <lastmod>2021-04-27T12:31:39+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ndomalau.netlify.app/posts/implementasi-fizzbuzz/</loc>
+    <lastmod>2021-04-27T12:31:39+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ndomalau.netlify.app/tags/php/</loc>
+    <lastmod>2021-04-27T12:31:39+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ndomalau.netlify.app/tags/coding-style/</loc>
+    <lastmod>2021-02-10T12:31:39+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ndomalau.netlify.app/categories/laravel/</loc>
+    <lastmod>2021-02-10T12:31:39+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ndomalau.netlify.app/tags/laravel/</loc>
+    <lastmod>2021-02-10T12:31:39+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ndomalau.netlify.app/posts/memastikan-cara-penulisan-kode-laravel-seragam-dan-mengikuti-standar-dengan-php-cs-fixer/</loc>
+    <lastmod>2021-02-10T12:31:39+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ndomalau.netlify.app/tags/phpcsfixer/</loc>
+    <lastmod>2021-02-10T12:31:39+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ndomalau.netlify.app/posts/apa-perbedaan-data-dan-basis-data/</loc>
+    <lastmod>2021-02-04T12:31:39+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ndomalau.netlify.app/tags/data/</loc>
+    <lastmod>2021-02-04T12:31:39+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ndomalau.netlify.app/tags/database/</loc>
+    <lastmod>2021-02-04T12:31:39+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ndomalau.netlify.app/tags/laravel-mix/</loc>
+    <lastmod>2020-10-17T12:31:39+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ndomalau.netlify.app/posts/tutorial-laravel-mix/</loc>
+    <lastmod>2020-10-17T12:31:39+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ndomalau.netlify.app/tags/webpack/</loc>
+    <lastmod>2020-10-17T12:31:39+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ndomalau.netlify.app/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ndomalau.netlify.app/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ndomalau.netlify.app/projects/</loc>
+  </url>
+  
+</urlset>

@@ -1,0 +1,248 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <title>Tutorial Laravel Mix - Fransiscus Rolanda Malau</title>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Fransiscus Rolanda Malau: It always seems impossible until it’s done." />
+<meta name="author" content="" /><meta property="og:title" content="Tutorial Laravel Mix" />
+<meta property="og:description" content="Pengantar Dalam tutorial ini saya akan menunjukkan cara menggunakan Laravel Mix diaplikasi Laravel Teman-teman." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ndomalau.netlify.app/posts/tutorial-laravel-mix/" />
+<meta property="article:published_time" content="2020-10-17T12:31:39+07:00" />
+<meta property="article:modified_time" content="2020-10-17T12:31:39+07:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Tutorial Laravel Mix"/>
+<meta name="twitter:description" content="Pengantar Dalam tutorial ini saya akan menunjukkan cara menggunakan Laravel Mix diaplikasi Laravel Teman-teman."/>
+
+<meta name="generator" content="Hugo 0.68.3" />
+    
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://ndomalau.netlify.app/fontawesome/css/all.min.css" />
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
+  
+  
+  <link rel="stylesheet" type="text/css" href="https://ndomalau.netlify.app/css/styles.css" /></head>
+
+<body>
+  <div id="container">
+    <header>
+      
+      <h1>
+        <a href="https://ndomalau.netlify.app/">Fransiscus Rolanda Malau</a>
+      </h1>
+
+      <ul id="social-media">
+             <li>
+               <a href="https://github.com/fransiscusrolandamalau" title="GitHub">
+               <i class="fab fa-github fa-lg"></i>
+               </a>
+             </li>
+             <li>
+               <a href="https://twitter.com/ndo_malau" title="Twitter">
+               <i class="fab fa-twitter fa-lg"></i>
+               </a>
+             </li>
+             <li>
+               <a href="https://linkedin.com/in/fransiscus-rolanda-malau" title="LinkedIn">
+               <i class="fab fa-linkedin fa-lg"></i>
+               </a>
+             </li>
+      </ul>
+      
+      <p><em>It always seems impossible until it’s done.</em></p>
+      
+    </header>
+
+    
+<nav>
+    <ul>
+        
+        <li>
+            <a class="" href="https://ndomalau.netlify.app/">
+                <i class="fa-li fa  fa-lg"></i><span>Home</span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="" href="https://ndomalau.netlify.app/about">
+                <i class="fa-li fa  fa-lg"></i><span>About</span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="" href="https://ndomalau.netlify.app/posts">
+                <i class="fa-li fa  fa-lg"></i><span>Blog</span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="" href="https://ndomalau.netlify.app/contact">
+                <i class="fa-li fa  fa-lg"></i><span>Contact Me</span>
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+
+
+    <main>
+
+
+
+
+<article>
+
+    <h1>Tutorial Laravel Mix</h1>
+
+    
+      <aside>
+    <ul>
+        <li>
+            <time class="post-date" datetime="2020-10-17T12:31:39&#43;07:00">Oct 17, 2020</time>
+        </li>
+        
+        
+        <li>
+            Categories:
+            <em>
+                
+                    
+                    <a href="https://ndomalau.netlify.app/categories/laravel">Laravel</a>
+                
+            </em>
+        </li>
+        
+
+        
+        <li>
+            <em>
+                
+                    
+                    <a href="https://ndomalau.netlify.app/tags/laravel-mix">#laravel-mix</a>
+                
+                    , 
+                    <a href="https://ndomalau.netlify.app/tags/webpack">#webpack</a>
+                
+            </em>
+        </li>
+        
+
+        <li>2 minute read</li>
+    </ul>
+</aside>
+
+    
+
+    
+      
+
+    
+
+    <h2 id="pengantar">Pengantar</h2>
+<p>Dalam tutorial ini saya akan menunjukkan cara menggunakan Laravel Mix diaplikasi Laravel Teman-teman. Jika Teman-teman yang udah pake Laravel cuman masih belum tau apa itu Laravel Mix atau udah tau cuman masih belum terlalu paham cara penggunaannya semoga tutorial bisa ngebantu teman-teman sekalian yaa.</p>
+<h2 id="apa-itu-laravel-mix">Apa itu Laravel Mix?</h2>
+<p>Menurut <a href="https://laravel.com/docs/8.x/mix">Laravel’s Offical Documentation</a></p>
+<blockquote>
+<p>Laravel Mix provides a fluent API for defining Webpack build steps for your Laravel application using several common CSS and JavaScript pre-processors.</p>
+</blockquote>
+<p>Singkatnya ginilah: Laravel Mix itu sebuah package frontend yang disiapkan untuk manajemen asset di Laravel. Asset yang dimasud bisa berupa CSS, JS, Image, Font, dan lain-lain.</p>
+<h2 id="proses-instalasi-laravel-mix">Proses Instalasi Laravel Mix</h2>
+<p>Dalam instalasi baru Laravel, Teman-teman akan menemukan file package.json diroot struktur direktori Anda. File default ini akan menyertakan semua yang Teman-teman butuhkan untuk memulai. Pastikan juga telah menginstal NPM diserver local kita ya.
+Atau Teman-teman dapat menginstal dependensi yang direferensikan dengan menjalankan:</p>
+<pre><code>npm install
+</code></pre>
+<h2 id="menjalankan-mix">Menjalankan Mix</h2>
+<p>Mix adalah lapisan konfigurasi di atas Webpack, jadi untuk menjankannya Teman-teman hanya perlu menjalankan salah satu skrip NPM berikut:</p>
+<pre><code>// menggabungkan tanpa minify…
+npm run dev
+
+// jika ingin yang terminify..
+npm run production
+</code></pre>
+<h2 id="melihat-assets-yang-melakukan-perubahan">Melihat Assets yang Melakukan Perubahan</h2>
+<p>Perintah npm run watch akan terus berjalan diterminal Teman-teman dan melihat semua perubahan pada file yang relevan. Webpack kemudian akan secara otomatis mengompilasi ulang asset Teman-teman ketika mendeteksi perubahan.</p>
+<pre><code>npm run watch
+</code></pre>
+<h2 id="mari-memulai-dari-stylesheets">Mari Memulai dari Stylesheets</h2>
+<p>File webpack.mix.js adalah untuk kompilasi asset. Anggap saja sebagai konfigurasi ringan Webpack.</p>
+<h3 id="sass">Sass</h3>
+<p>mix.sass memungkinkan Teman-teman untuk mengkompilasi Sass ke dalam CSS. Teman-teman dapat menggunakan seperti ini:</p>
+<pre><code>mix.sass('resources/sass/app.scss', 'public/css');
+</code></pre>
+<p>Kalo lebih dari satu:</p>
+<pre><code>mix.sass('resources/sass/app.sass', 'public/css')
+    .sass('resources/sass/admin.sass', 'public/css/admin');
+</code></pre>
+<h3 id="plain-css">Plain Css</h3>
+<p>Jika Teman-teman ingin menggabungkan beberapa CSS biasa menjadi satu file juga bisa, gini caranya:</p>
+<pre><code>mix.styles([
+    'resources/assets/vendor/css/bootstrap.min.css',
+    'resources/assets/vendor/css/owl.carousel.min.css',
+    'resources/assets/vendor/css/owl.theme.default.min.css',
+    'resources/assets/vendor/css/slick.css',
+    'resources/assets/vendor/css/slick-theme.css'
+], 'public/css/vendor.css');
+</code></pre>
+<h2 id="kita-lanjut-dengan-javascript">Kita lanjut dengan JavaScript</h2>
+<p>Gimana kalo untuk file JavaScript? tinggal gini aja nanti dia akan mengompilasi kode JSnya.</p>
+<pre><code>mix.js('resoureces/app.js', 'public/js');
+</code></pre>
+<p>Kalo beberapa JS juga biasa menjadi satu file juga bisa, gini caranya:</p>
+<pre><code>mix.scripts([
+    'resources/assets/vendor/js/jquery-3.5.1.min.js',
+    'presources/assets/vendor/js/bootstrap.bundle.min.js'
+], 'public/js/vendor.js');
+</code></pre>
+<h2 id="copy-file-atau-direktori">Copy File atau Direktori</h2>
+<p>Untuk copy file atau direktori juga bisa, contoh dibawah adalah memindahkan beberapa file font dari folder node_modules ke lokasi lain.</p>
+<pre><code>mix.copy('node_modules/font-awesome/fonts/*', 'public/fonts/');
+</code></pre>
+<p>Kalo untuk mindahin folder pake yang ini.</p>
+<pre><code>mix.copyDirectory(‘resources/img’, ‘public/img’);
+</code></pre>
+<h2 id="versioning">Versioning</h2>
+<p>Nah ada lagi nih fitur versioning yang secara otomatis bakal nambahin hash unik ke nama file yang kita kompilasi, dan juga untuk merecord versi asset sehingga ketika ada perubahan nggak akan ngecache di browser client</p>
+<pre><code>mix.js('resources/js/app.js', 'public/js')
+    .version();
+</code></pre>
+<p>Kalo semua pengen diversioning pas production bisa pake cara ini.</p>
+<pre><code>if (mix.inProduction()) {
+ mix.version
+}
+</code></pre>
+<p>Semoga tutorial ini bisa membatu Teman-teman.</p>
+
+
+</article>
+
+
+
+
+
+
+</main>
+    <footer>
+        <ul>
+            <li>
+                <h6>Copyright © 2020 - Fransiscus Rolanda Malau | 
+                    Rendered by <a href="https://gohugo.io" title="Hugo">Hugo</a> |
+                    <a href="https://ndomalau.netlify.app/index.xml">Subscribe </a></h6>
+            </li>
+            
+            
+        </ul>
+    </footer>
+</div>
+<script src="https://ndomalau.netlify.app/js/scripts.js"></script>
+
+
+</body>
+
+</html>
+
