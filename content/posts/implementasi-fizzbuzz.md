@@ -2,12 +2,10 @@
 title = "Implementasi FizzBuzz"
 date = 2021-04-27T12:31:39+07:00
 draft = false
-tags = ["coding-interviews", "fizzbuzz"]
-categories = ["coding-interviews"]
+tags = ["php", "fizzbuzz"]
+categories = ["Tips"]
 meta = true
 +++
-
-![](https://cdn-images-1.medium.com/max/2400/1*F21xhBv43qWBDKX2Qp2Nng.png)
 
 **FizzBuzz **Sederhananya adalah sebuah permainan menghitung, namun apabila ada peserta yang kebagian angka tiga dan kelipatannya maka peserta menyebutkan “Fizz” sebagai ganti angkanya sedangkan untuk angka lima dan kelipatannya peserta menyebut “Buzz” sebagai ganti angkanya. Terakhir jika angka tersebut adalah kelipatan dari tiga dan lima maka peserta menyebutkan “FizzBuzz” sebagai ganti angkanya*.*
 

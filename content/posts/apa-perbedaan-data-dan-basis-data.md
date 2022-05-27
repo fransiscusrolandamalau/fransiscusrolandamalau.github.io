@@ -3,11 +3,9 @@ title = "Apa Perbedaan Data dan Basis Data"
 date = 2021-02-04T12:31:39+07:00
 draft = false
 tags = ["data", "database"]
-categories = ["database"]
+categories = ["Tips"]
 meta = true
 +++
-
-![](https://cdn-images-1.medium.com/max/2400/1*K7ul-sXbltMNC98y1C5sig.png)
 
 ### Apakah data itu? Ada beberapa definisi tentang data, antara lain:
 

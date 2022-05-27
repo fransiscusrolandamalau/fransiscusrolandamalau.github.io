@@ -3,11 +3,9 @@ title = "Memastikan cara penulisan kode Laravel seragam dan mengikuti standar de
 date = 2021-02-10T12:31:39+07:00
 draft = false
 tags = ["coding-style", "laravel", "phpcsfixer"]
-categories = ["laravel"]
+categories = ["Laravel"]
 meta = true
 +++
-
-![](https://cdn-images-1.medium.com/max/2400/1*4f9-neh_txfD-At1LeoRwA.png)
 
 ## Pengantar
 

@@ -2,12 +2,10 @@
 title = "Tutorial Laravel Mix"
 date = 2020-10-17T12:31:39+07:00
 draft = false
-tags = ["laravel", "webpack"]
-categories = ["laravel"]
+tags = ["laravel-mix", "webpack"]
+categories = ["Laravel"]
 meta = true
 +++
-
-![](https://cdn-images-1.medium.com/max/2400/1*Yr2m6xaljXodc_ovPibikQ.png)
 
 ## Pengantar
 
@@ -16,7 +14,7 @@ Dalam tutorial ini saya akan menunjukkan cara menggunakan Laravel Mix diaplikasi
 ## Apa itu Laravel Mix?
 
 Menurut [Laravel’s Offical Documentation](https://laravel.com/docs/8.x/mix)
-> # Laravel Mix provides a fluent API for defining Webpack build steps for your Laravel application using several common CSS and JavaScript pre-processors.
+> Laravel Mix provides a fluent API for defining Webpack build steps for your Laravel application using several common CSS and JavaScript pre-processors.
 
 Singkatnya ginilah: Laravel Mix itu sebuah package frontend yang disiapkan untuk manajemen asset di Laravel. Asset yang dimasud bisa berupa CSS, JS, Image, Font, dan lain-lain.
 

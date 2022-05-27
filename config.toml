@@ -4,9 +4,9 @@ copyright = "Copyright &copy; 2020 - Fransiscus Rolanda Malau"
 canonifyurls = true
 theme = "hugo-kiera"
 
-paginate = 3
+paginate = 12
 
-summaryLength = 30
+summaryLength = 10
 enableEmoji = true
 pygmentsCodeFences = true
 
@@ -27,7 +27,7 @@ pygmentsCodeFences = true
 
 [params]
     tagline = "It always seems impossible until it’s done."
-    description = "Fransiscus Rolanda Malau: It always seems impossible until it’s done.."
+    description = "Fransiscus Rolanda Malau: It always seems impossible until it’s done."
     #images = [""] #This is used for opengraph/twitter cards.
     customCSS = []  #Optional Customised CSS
     #favicon = ""
@@ -40,16 +40,32 @@ pygmentsCodeFences = true
     #google_fonts = ["Staatliches"] # Adds additional google fonts
     #disableDarkModeCSS = false # disables css style for users using dark-mode
 
-# uncomment to enable the Tags link on the main toolbar
-#  [[menu.main]]
-#    identifier = "tags"
-#    name = "Tags"
-#    url = "/tags"
-#    weight = 1
+[[menu.main]]
+  identifier = ""
+  name = "Home"
+  url = "/"
+  weight = 1
 
-# uncomment to enable the Categories link on the main toolbar
-#  [[menu.main]]
-#    identifier = "categories"
-#    name = "Categories"
-#    url = "/categories"
-#    weight = 1
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about"
+  weight = 2
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Blog"
+  url = "/posts"
+  weight = 3
+
+# [[menu.main]]
+#   identifier = "projects"
+#   name = "Projects"
+#   url = "/projects"
+#   weight = 4
+
+[[menu.main]]
+  identifier = "contact"
+  name = "Contact Me"
+  url = "/contact"
+  weight = 5
