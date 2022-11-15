@@ -1,6 +1,6 @@
 baseurl = "https://odnualam.com/"
 title = "Fransiscus Rolanda Malau"
-copyright = "Copyright &copy; 2020 - Fransiscus Rolanda Malau"
+copyright = "Copyright &copy; 2022 - Fransiscus Rolanda Malau"
 canonifyurls = true
 theme = "hugo-kiera"
 
@@ -15,11 +15,11 @@ pygmentsCodeFences = true
 # Note: to disable a social network icon delete or comment out the corresponding line
 [author]
     #name = "Example"
-    github = "fransiscusrolandamalau"
+    github = "odnualam"
     #gitlab = "username"
-    linkedin = "fransiscus-rolanda-malau"
+    linkedin = "odnualam"
     #facebook = "username"
-    twitter = "ndo_malau"
+    twitter = "odnualam"
     #instagram = "username"
     #stackoverflow = "username"
     #youtube = "user/username" # or channel/channelname
@@ -58,14 +58,8 @@ pygmentsCodeFences = true
   url = "/posts"
   weight = 3
 
-# [[menu.main]]
-#   identifier = "projects"
-#   name = "Projects"
-#   url = "/projects"
-#   weight = 4
-
 [[menu.main]]
-  identifier = "contact"
-  name = "Contact Me"
-  url = "/contact"
-  weight = 5
+  identifier = "uses"
+  name = "Uses"
+  url = "/uses"
+  weight = 4
