@@ -63,3 +63,9 @@ pygmentsCodeFences = true
   name = "Uses"
   url = "/uses"
   weight = 4
+
+[[menu.main]]
+  identifier = "music"
+  name = "Music"
+  url = "/music"
+  weight = 5
