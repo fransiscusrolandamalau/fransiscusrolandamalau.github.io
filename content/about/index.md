@@ -4,8 +4,6 @@ hidedate: true
 readingtime: true
 ---
 
-Seorang Web Developer, yang dapat cepat belajar, menyukai tantangan, dan juga mengeluarkan potensi penuh, tidak hanya untuk dirinya sendiri tetapi juga lingkungan itu sendiri.
+Fransiscus Rolanda Malau is a web developer who has been in the industry for 2 years.
 
-Karena saya percaya ketika kamu pergi sendiri kamu akan pergi lebih cepat, tetapi ketika kamu bersama kamu melangkah lebih jauh.
-
-Keahlian telah dibuktikan dengan pengalaman serta portfolio dalam mengembangkan sistem. Hal-hal yang butuhkan adalah lebih banyak pengalaman.
+I'm always looking for opportunities to grow my skills and push myself to learn new things. If you're looking for someone with a background in web development who can lend their expertise to your project, look no further!

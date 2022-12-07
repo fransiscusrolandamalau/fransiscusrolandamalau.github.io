@@ -103,5 +103,3 @@ Kalo semua pengen diversioning pas production bisa pake cara ini.
     if (mix.inProduction()) {
      mix.version
     }
-
-Semoga tutorial ini bisa membatu Teman-teman.

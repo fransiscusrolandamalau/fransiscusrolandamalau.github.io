@@ -21,16 +21,16 @@ pygmentsCodeFences = true
     #facebook = "username"
     twitter = "odnualam"
     #instagram = "username"
-    #stackoverflow = "username"
+    stackoverflow = "users/10875688/odnualam"
     #youtube = "user/username" # or channel/channelname
     #devto = "username"
 
 [params]
-    tagline = "It always seems impossible until it’s done."
-    description = "Fransiscus Rolanda Malau: It always seems impossible until it’s done."
-    #images = [""] #This is used for opengraph/twitter cards.
-    customCSS = []  #Optional Customised CSS
-    favicon = "images/favicon/android-chrome-512x512.png"
+    #tagline = "
+    description = "Fransiscus Rolanda Malau is a web developer who has been in the industry for 2 years."
+    images = ["images/favicon/android-chrome-512x512.png"]
+    #customCSS = []  #Optional Customised CSS
+    favicon = "/images/favicon/android-chrome-512x512.png"
     #utterancesRepo = "username/repository"
     #utterancesIssueTerm = "pathname"
     #homepageLength = 10
