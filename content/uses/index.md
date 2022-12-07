@@ -1,7 +1,6 @@
 ---
 title: "Uses"
-hidedate: true
-readingtime: true
+meta: "false"
 ---
 
 Laptop

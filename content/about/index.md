@@ -1,7 +1,6 @@
 ---
 title: "About"
-hidedate: true
-readingtime: true
+meta: "false"
 ---
 
 Fransiscus Rolanda Malau is a web developer who has been in the industry for 2 years.
